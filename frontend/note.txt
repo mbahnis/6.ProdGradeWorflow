@@ -1,0 +1,3 @@
+npm run start => Used for development. not suitable for production environment
+npm run test => run tests associated with the project
+npm run build => Build a PRODUCTION version of the application
