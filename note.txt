@@ -1,3 +1,8 @@
 projet en réact
 
 de bout en bout : github => Travis CI => AWS
+
+npm run start : start up a dev server. for DEV ONLY
+npm run test : run tests associated with the project
+npm run build : Builds a production version of the app
+
