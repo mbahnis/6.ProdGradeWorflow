@@ -7,4 +7,6 @@ RUN npm install
 
 COPY . .
 
+RUN chmod 777 node_modules
+
 CMD ["npm", "run", "start"]
