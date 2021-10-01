@@ -1,5 +1,4 @@
-sudo: required
-servcies:
+services:
   - docker
 
 before_install:
@@ -9,7 +8,7 @@ script:
   - docker run -e CI=true evness176/docker-react-dev npm run test
 
 deploy:
-  provider: elascticbeanstalk
+  provider: elasticbeanstalk
   region: "eu-west-3"
   app: "docker-react"
   env: "dockerreact-env"
